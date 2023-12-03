@@ -35,6 +35,8 @@ const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 
 // CODE HERE
 let totalAcres = 0;
+
+// Using three for loops to calculate the total number of acres picked in the entire week
 for (let i = 0; i < fujiAcres.length; i ++) {
     totalAcres += fujiAcres[i];
 }
@@ -44,6 +46,8 @@ for (let i = 0; i < galaAcres.length; i ++) {
   for (let i = 0; i < pinkAcres.length; i ++) {
     totalAcres += pinkAcres[i];
   }
+
+  // Log 'totalAcres' to the console
     console.log(totalAcres);
 
 console.log('Total Acres picked for the entire week:', totalAcres);
@@ -63,8 +67,12 @@ console.log('Total Acres picked for the entire week:', totalAcres);
 
 // CODE HERE
 let averageDailyAcres = [];
+
+// Using an if stateent to calculate the average number of acres picked per day
 if (averageDailyAcres = totalAcres / 7) {
 }
+
+// Log 'averageDailyAcres to the console
     console.log(averageDailyAcres);
 console.log('Average number of Acres picked per day:', averageDailyAcres);
 
@@ -99,9 +107,15 @@ let days = 0
 // CODE HERE
 const dailyAverage = 9;
 while (acresLeft > 0) {
+
+    // add 1 to the 'days' variable
   days +=1;
+
+  // subtract the daily average from the acres left
   acresLeft -= dailyAverage;
 }
+
+// Log 'days' to the console outside the while loop
   console.log(days);
 
 
@@ -127,6 +141,19 @@ while (acresLeft > 0) {
 let fujiTons = [];
 let galaTons = [];
 let pinkTons = [];
+
+// creating variable for the tons of apple each tons yeild
+const tonsPerAcre = 6.5;
+
+// Calculate tons picked for each variety
+fujiTons === (fujiTons * tonsPerAcre);
+galaTons === (galaTons * tonsPerAcre);
+pinkTons === (pinkTons * tonsPerAcre);
+
+// Log each array to the console
+console.log("Fuji Tons:", fujiTons);
+console.log("Gala Tons:", galaTons);
+console.log("Pink Tons:", pinkTons);
 
 
 
