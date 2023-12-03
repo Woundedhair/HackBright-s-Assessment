@@ -17,8 +17,8 @@ Your answer:
    $ cd /Users
 
 Your answer:
-'cd Users' changes the directory to the Users directory while 
-'cd /Users' is a file path. 
+'cd Users' is a relative file path and it changes to the 'Users' directory from the current directory while 
+'cd /Users' is an absolute file path and it changes to the 'Users' directory from the root directory. 
 
 ------------------
 4) Describe what git is and what it is used for.

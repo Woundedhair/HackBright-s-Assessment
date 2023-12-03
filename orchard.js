@@ -34,8 +34,19 @@ const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 */
 
 // CODE HERE
+let totalAcres = 0;
+for (let i = 0; i < fujiAcres.length; i ++) {
+    totalAcres += fujiAcres[i];
+}
+for (let i = 0; i < galaAcres.length; i ++) {
+    totalAcres += galaAcres[i];
+  }
+  for (let i = 0; i < pinkAcres.length; i ++) {
+    totalAcres += pinkAcres[i];
+  }
+    console.log(totalAcres);
 
-
+console.log('Total Acres picked for the entire week:', totalAcres);
 
 
 
@@ -51,7 +62,11 @@ const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 */
 
 // CODE HERE
-
+let averageDailyAcres = [];
+if (averageDailyAcres = totalAcres / 7) {
+}
+    console.log(averageDailyAcres);
+console.log('Average number of Acres picked per day:', averageDailyAcres);
 
 
 
@@ -82,7 +97,12 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
+const dailyAverage = 9;
+while (acresLeft > 0) {
+  days +=1;
+  acresLeft -= dailyAverage;
+}
+  console.log(days);
 
 
 // PROBLEM 4
